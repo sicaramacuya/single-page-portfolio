@@ -15,22 +15,22 @@
                     </div>
                     <nav id="navigator">
                         <ul id="ul-nav">
-                            <li id="projects">
-                                <a id="projects-link" href="#projects-content">
+                            <li id="projects-link">
+                                <a id="projects" href="#projects-content">
                                     <span id="project-num">01</span>
                                     <span id="project-div">-</span>
                                     <span id="project-text">Projects</span>
                                 </a>
                             </li>
-                            <li id="skills">
-                                <a href="skills-link">
+                            <li id="skills-link">
+                                <a href="skills">
                                     <span id="skills-num">02</span>
                                     <span id="skills-div">-</span>
                                     <span id="skills-text">Skills</span>
                                 </a>
                             </li>
-                            <li id="contact">
-                                <a href="contact-link">
+                            <li id="contact-link">
+                                <a href="contact">
                                     <span id="contact-num">03</span>
                                     <span id="contact-div">-</span>
                                     <span id="skills-text">Contact</span>
@@ -53,9 +53,96 @@
                     </ul>
                 </div>
             </div>
-            <div id="right-side-container"></div>
+            <div id="right-side-container">
+                <div id="projects">
+                    <!-- <h2>Projects</h2> -->
+                    <div id="projects-clip-board">
+                        <article id="projects-article-1" class="project-articles">
+                            <a href="">
+                                <p class="project-domain">JavaScipt</p>
+                                <h3 class="project-name">Tip Calculator</h3>
+                                <p class="project-description">An introductory project for learning JavaScript.</p>
+                            </a>
+                        </article>
+                        <article id="projects-article-2" class="project-articles">
+                            <a href="">
+                                <p class="project-domain">Python</p>
+                                <h3 class="project-name">Chatbot</h3>
+                                <p class="project-description">An introductory project for conditionals, lists and loops.</p>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div id="skills">
+                    <!-- <h2>Skills</h2> -->
+                    <div id="skills-clip-board">
+                        <article id="skills-article-1" class="skills-articles">
+                            <div id="skills-card-1" class="skills-card">
+                                <header class="skill-header">
+                                    <h3 class="skill">HTML & CSS Implementation</h3>
+                                </header>
+                                <div>
+                                    <h4 class="skills-description">Still on a beginenner. However, skilled enough to create this website.</h4>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="skills-article-2" class="skills-articles">
+                            <div id="skills-card-2" class="skills-card">
+                                <header class="skill-header">
+                                    <h3 class="skill">Coding Languages</h3>
+                                </header>
+                                <div>
+                                    <h4 class="skills-description">Able to write code on Python, C++ and in a less degree JavaScript.</h4>
+                                </div>                            
+                            </div>
+                        </article>
+                        <article id="skills-article-3" class="skills-articles">
+                            <div id="skills-card-3" class="skills-card">
+                                <div id="skills-card-2" class="skills-card">
+                                    <header class="skill-header">
+                                        <h3 class="skill">Problem Solving and Logical Thinking</h3>
+                                    </header>
+                                    <div>
+                                        <h4 class="skills-description">Capable to not only pinpoint software issues but also use deductive reasoning to solve problems.</h4>
+                                    </div>                            
+                                </div>                            
+                            </div>
+                        </article>
+                        <article id="skills-article-4" class="skills-articles">
+                            <div id="skills-card-4" class="skills-card">
+                                <div id="skills-card-2" class="skills-card">
+                                    <header class="skill-header">
+                                        <h3 class="skill">Teamwork</h3>
+                                    </header>
+                                    <div>
+                                        <h4 class="skills-description">Proficiency on collaboration, active listening, conflic resolution, oral and written communication.</h4>
+                                    </div>                            
+                                </div>                            
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div id="contact">
+                    <div id="contact-clip-board">
+                        <div id="contact-text">Contact Form</div>
+                        <div id="input-name-container">
+                            <input id="input-name" type="text" value="Name:">
+                        </div>
+                        <div id="input-email-container"></div>
+                            <input id="input-email" type="text" value="Email:">
+                        <div id="input-message-container">
+                            <input id="input-message" type="text" value="Message:">
+                        </div>
+                    </div>
+                </div>
+                <p id="acknowledgment">Acknowledgments</p>
+            </div>
             <div id="bottom-section"></div>
             <div id="upper-section"></div>
+            <div id="resizing-sensors">
+                <div id="resize-sensor-expand"></div>
+                <div id="resize-sensor-shrink"></div>
+            </div>
         </div>
     </body>
 </html>
