@@ -251,3 +251,25 @@ img {
     font-weight: 600;
     font-size: 18px;
 }
+
+#bottom-section {
+    height: 32px;
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0),rgb(237, 233, 225));
+}
+
+#upper-section {
+    height: 32px;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0),rgb(237, 233, 225));
+}
